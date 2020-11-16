@@ -1,0 +1,10 @@
+.profile__job {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding-left: 3.75px;
+
+    grid-area: job;
+}

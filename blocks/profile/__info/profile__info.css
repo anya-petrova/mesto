@@ -1,0 +1,7 @@
+.profile__info {
+    display: grid;
+    grid-template-areas: "name button_edit"
+                         "job job";
+    color: #ffffff;
+    font-family: 'Inter';
+}
