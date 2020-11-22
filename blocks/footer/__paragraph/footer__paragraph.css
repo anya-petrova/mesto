@@ -1,10 +1,11 @@
-.profile__job {
+.footer__paragraph {
+    font-family: 'Inter';
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
     font-style: normal;
-    margin: 0;
-    padding-left: 28px;
 
-    grid-area: job;
+    margin: 0;
+
+    color: #545454;
 }

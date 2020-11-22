@@ -1,0 +1,12 @@
+.element__paragraph {
+    color: #000000;
+
+    font-family: 'Inter';
+    font-weight: 900;
+    font-style: normal;
+    
+    margin: 0;
+    padding: 0;
+
+    grid-area: text;
+}

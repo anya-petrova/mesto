@@ -1,0 +1,10 @@
+.element__item {
+    max-width: 282px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas: "image"
+                         "text";
+}
