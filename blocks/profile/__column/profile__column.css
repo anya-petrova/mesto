@@ -1,4 +1,9 @@
 .profile__column {
     display: flex;
-    
+}
+
+@media screen and (max-width: 475px) {
+    .profile__column {
+        display: block;
+    } 
 }

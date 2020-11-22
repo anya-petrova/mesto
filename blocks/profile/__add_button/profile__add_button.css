@@ -5,6 +5,16 @@
     margin: 0;
     padding: 14px 64px;
 
-    cursor:pointer;
+    cursor: pointer;
     border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 475px) {
+    .profile__add_button {
+        max-width: 16px;
+        max-height: 16px;
+        padding: 17px 133px;
+        margin: 0 auto;
+        padding: 0;
+    }
 }
