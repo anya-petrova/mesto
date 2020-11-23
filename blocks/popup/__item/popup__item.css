@@ -1,4 +1,4 @@
-.popup__item-text {
+.popup__item {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 19px;
@@ -16,12 +16,12 @@
     border-bottom: 1px solid rgba(84,84,84, 0.2);
 }
 
-.popup__item-text:last-child {
+.popup__item:last-child {
     margin-bottom: 0px;
 }
 
 @media screen and (max-width: 475px) {
-    .popup__item-text {
+    .popup__item {
         line-height: 16px;
         width: 238px;
         margin: 0 22px 30px;

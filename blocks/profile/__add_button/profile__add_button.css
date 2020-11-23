@@ -1,6 +1,8 @@
 .profile__add_button {
     max-width: 22px;
     max-height: 22px;
+    background-image: url(../../../image/profile-add.svg);
+    background-color: transparent;
 
     margin: 0;
     padding: 14px 64px;
