@@ -1,0 +1,8 @@
+.profile__add_button_image {
+    max-width: 22px;
+    max-height: 22px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 14px 64px;
+}

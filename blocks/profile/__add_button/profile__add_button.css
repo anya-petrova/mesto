@@ -1,14 +1,18 @@
 .profile__add_button {
-    max-width: 22px;
-    max-height: 22px;
-    background-image: url(../../../image/profile-add.svg);
-    background-color: transparent;
+    max-width: 150px;
+    max-height: 50px;
+    background-color: #000000;
 
     margin: 0;
-    padding: 14px 64px;
+    padding: 0;
 
     cursor: pointer;
     border: 1px solid #ffffff;
+}
+
+.profile__add_button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 475px) {

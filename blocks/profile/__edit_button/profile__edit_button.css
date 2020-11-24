@@ -1,13 +1,16 @@
 .profile__edit_button {
-    max-width: 10px;
-    max-height: 10px;
-    background-image: url(../../../image/profile-edit.svg);
-    background-color: transparent;
-    background-repeat: no-repeat;
+    max-width: 24px;
+    max-height: 24px;
+    background-color: #000000;
 
-    margin: 0 0 0 18px;
-    padding: 7px;
+    margin-left: 25px;
+    padding: 0;
 
-    cursor:pointer;
+    cursor: pointer;
     border: 1px solid #ffffff;
+}
+
+.profile__edit_button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
 }
