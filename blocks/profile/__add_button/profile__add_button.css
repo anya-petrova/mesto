@@ -1,7 +1,11 @@
 .profile__add_button {
-    max-width: 150px;
-    max-height: 50px;
+    width: 150px;
+    height: 50px;
     background-color: #000000;
+    background-image: url(../../../image/profile-add.svg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
 
     margin: 0;
     padding: 0;
@@ -15,11 +19,9 @@
     transition: 0.5s;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
     .profile__add_button {
-        max-width: 16px;
-        max-height: 16px;
-        padding: 17px 133px;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
     }

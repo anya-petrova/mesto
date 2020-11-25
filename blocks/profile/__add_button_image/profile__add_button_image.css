@@ -6,3 +6,11 @@
     margin: 0;
     padding: 14px 64px;
 }
+
+@media screen and (max-width: px) {
+    .profile__add_button_image {
+        max-width: 16px;
+        max-height: 16px;
+        padding: 17px 133px;
+    }
+}

@@ -9,7 +9,7 @@
     grid-area: job;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
     .profile__job {
         font-size: 14px;
         line-height: 19px;

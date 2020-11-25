@@ -2,7 +2,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
     .profile__column {
         display: block;
     } 

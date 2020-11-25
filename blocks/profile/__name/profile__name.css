@@ -9,11 +9,11 @@
     grid-area: name;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 600px) {
     .profile__name {
         font-size: 27px;
         line-height: 32px;
-        margin: 0 auto;
         padding: 22.25px 0 14px;
+        justify-self: end;
     }
 }

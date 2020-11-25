@@ -8,3 +8,12 @@
     cursor:pointer;
     border: none;
 }
+
+.element__like-button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.element__like-button:hover:active {
+    background-image: url(../../../image/elem-like-active.png);
+}
