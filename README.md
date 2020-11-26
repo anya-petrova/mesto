@@ -6,8 +6,11 @@
 * Картинки
 * Верстка форм
 * JavaScript
+* Адаптивная верстка
 
+**Ссылка на GitHub Pages**
 
+https://anya-petrova.github.io/mesto/index.html
 
 **Figma**
 
