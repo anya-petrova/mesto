@@ -1,4 +1,4 @@
-.element__like_button {
+.element__like-button {
     width: 21px;
     height: 19px;
 
@@ -14,11 +14,11 @@
     border: none;
 }
 
-.element__like_button:hover {
+.element__like-button:hover {
     opacity: 0.6;
     transition: 0.5s;
 }
 
-.element__like_button:hover:active {
+.element__like-button:hover:active {
     background-image: url(../../../image/elem-like-active.png);
 }
