@@ -20,6 +20,13 @@
     margin-bottom: 0px;
 }
 
+.popup__item:focus {
+    outline-color: yellow;
+    outline-style: solid;
+    outline-width: 3px;
+}
+
+
 @media screen and (max-width: 475px) {
     .popup__item {
         line-height: 16px;
