@@ -3,7 +3,7 @@
     margin: 47.25px auto 67px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .element {
         max-width: 581px;
     }

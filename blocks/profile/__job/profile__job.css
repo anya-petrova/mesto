@@ -6,6 +6,9 @@
     margin: 0;
     padding-left: 28px;
 
+    max-width: 336px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+
     grid-area: job;
 }
 
