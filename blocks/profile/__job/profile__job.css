@@ -7,6 +7,9 @@
     padding-left: 28px;
 
     max-width: 336px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 
     grid-area: job;
