@@ -7,4 +7,5 @@
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     grid-template-areas: "image"
                          "text";
+    position: relative;
 }
