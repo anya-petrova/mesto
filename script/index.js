@@ -1,8 +1,8 @@
 const editButton = document.querySelector('.profile__edit-button');
 const addButton = document.querySelector('.profile__add-button');
 
-let popupEdit = document.querySelector('.popup__edit');
-let popupAdd = document.querySelector('.popup__add');
+let popupEdit = document.querySelector('.popup_edit');
+let popupAdd = document.querySelector('.popup_add');
 let popupContainer = document.querySelectorAll('.popup__container');
 let closeButtonEdit = document.querySelector('.popup__close-button-edit');
 let closeButtonAdd = document.querySelector('.popup__close-button-add');
@@ -20,7 +20,7 @@ let formSaveButton = document.querySelector('.popup__save-button');
 
 let imagePopup = document.querySelector('.popup__image');
 let captionPopup = document.querySelector('.popup__caption');
-let popupWithImage = document.querySelector('.popup__with-image');
+let popupWithImage = document.querySelector('.popup_with-image');
 
 
 const initialCards = [
