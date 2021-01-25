@@ -6,6 +6,7 @@ let popupAdd = document.querySelector('.popup__add');
 let popupContainer = document.querySelectorAll('.popup__container');
 let closeButtonEdit = document.querySelector('.popup__close-button-edit');
 let closeButtonAdd = document.querySelector('.popup__close-button-add');
+let closeButtonImage = document.querySelector('.popup__close-button-image');
 
 let profileName = document.querySelector('.profile__name');
 let profileJob = document.querySelector('.profile__job');
@@ -16,6 +17,11 @@ const formInputLink = document.querySelector('.popup__item_link');
 let formInputName = document.querySelector('.popup__item_name');
 let formInputJob = document.querySelector('.popup__item_job');
 let formSaveButton = document.querySelector('.popup__save-button');
+
+let imagePopup = document.querySelector('.popup__image');
+let captionPopup = document.querySelector('.popup__caption');
+let popupWithImage = document.querySelector('.popup__with-image');
+
 
 const initialCards = [
     {
@@ -57,10 +63,22 @@ renderList();
 function composeItems(item) {
     const newItem = templateElement.content.cloneNode(true);
     const newItemImage = newItem.querySelector('.element__image');
+    newItemImage.addEventListener('click', function(evt) {
+        const eventTarget = evt.target;
+        //по аналогии с заполнением форм
+        //src делаем пустым, потом заполняем через присвоение значения
+        imagePopup.setAttribute("src", eventTarget.getAttribute("src"));
+        imagePopup.setAttribute("alt", item.name)
+        //подпись под фоткой заполняем через item.name text content)
+        captionPopup.textContent = item.name;
+        console.log(captionPopup)
+        togglePopupForm();
+    })
     newItemImage.src = item.link;
     const newItemDeleteButton = newItem.querySelector('.element__delete-button');
     newItemDeleteButton.addEventListener('click', function(evt) {
         const eventTarget = evt.target;
+        eventTarget.parentNode.remove();
     })
     const newItemParagraph = newItem.querySelector('.element__paragraph');
     newItemParagraph.textContent = item.name;
@@ -79,6 +97,10 @@ function toggleEditForm(evt) {
 
 function toggleAddForm(evt) {
     popupAdd.classList.toggle('popup_opened');
+}
+
+function togglePopupForm(evt) {
+    popupWithImage.classList.toggle('popup_opened');
 }
 
 function fillEditForm() {
@@ -109,6 +131,11 @@ popupEdit.addEventListener('submit', formEditChange);
 addButton.addEventListener('click', toggleAddForm);
 closeButtonAdd.addEventListener('click', toggleAddForm);
 popupAdd.addEventListener('submit', addNewItem);
+
+closeButtonImage.addEventListener('click', togglePopupForm);
+
+
+	
 
 
 
